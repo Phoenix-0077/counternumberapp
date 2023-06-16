@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    background-color: #1b1b1b;
+    width: 500px;
+    height: 400px;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    border-radius: 30px;
+}
+h2{
+    width: fit-content;
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p{
+    font-size: 3vw;
+    width: fit-content;
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+span{
+    padding: 0 10px;
+}
+button{
+    font-size: 20px;
+    border-radius: 7px;
+    border: 0;
+    padding: 5px 10px;
+}
+#increase{
+    background-color: #00ff00;
+}
+#increase:hover{
+    /* box-shadow: 3px 3px 5px #00ff00; */
+    color: #00ff00;
+    background-color: #000000;
+}
+#reset{
+    background-color: #595959;
+}
+#reset:hover{
+    /* box-shadow: 3px 3px 5px #595959; */
+    color: #595959;
+    background-color: #000000;
+}
+#decrease{
+    background-color: #ff0000;
+}
+#decrease:hover{
+    /* box-shadow: 3px 3px 5px #ff0000; */
+    color: #ff0000;
+    background-color: #000000;
+}
+
